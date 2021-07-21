@@ -20,11 +20,11 @@ namespace PracticeOOP
  
         public void SayHi() 
         {
-            Console.WriteLine($"Hi {name}");    
+            Console.WriteLine($"Hello {name}");    
         
         }   
     
-    
+        
     
     
     
