@@ -12,9 +12,14 @@ namespace PracticeOOP
             
 
             StringTransformer myname = new StringTransformer(mynamePro, myyearPro);
+           
+            StringTransformer myObj = new StringTransformer("Elbek Ustoz");
+
+            string resultMain = myObj.ReverseWords();
+
+            Console.WriteLine(resultMain);
+
             
-            myname.SayHi(); 
-             
              
             
         
