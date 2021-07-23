@@ -6,45 +6,43 @@ namespace PracticeOOP
 {
     class StringTransformer    
     {
-        private string name;
-        private int year;
-        private string str;  
+        string name;
+        int years;
         
-        public StringTransformer(string strOne) 
-        {
-            str = strOne;    
-                
-        } 
-
-
-        public StringTransformer (string nameOne, int yearOne) 
-        {
-            name = nameOne;
-            year = yearOne; 
-                
-        }
-          /*Make a function that will return a greeting statement that uses an input;
-             your program should return, "Hello, <name> how are you doing today?".*/
-        public void SayHi()      
-        {
-            Console.WriteLine($"Hello {name}");    
         
+        public StringTransformer(string teachername, int teacherYears) 
+        {
+            name = teachername;
+            years = teacherYears;
+         
         }
 
+        public StringTransformer(string teacherNameOveConRever) 
+        {
+            name = teacherNameOveConRever;
+        }
+
+
+        /// Complete the solution so that it reverses all of the words within the string passed in. <summary>
+        /// 
+        /// Elbek Normurodov </summary>
+        /// <returns>Normurodov Elbek</returns>
         public string ReverseWords()
         {
-            string[] strArray = str.Split(' ');
+            string[] strArray = name.Split(' ');
             Array.Reverse(strArray);
             string resalt = string.Join(' ', strArray);
-            
+
             return resalt;
         }
+       
 
 
-
-
-
-    }   
+    }
+        
+        
+        
+   
 }
 
 

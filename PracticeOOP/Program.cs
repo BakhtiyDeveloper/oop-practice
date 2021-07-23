@@ -7,22 +7,28 @@ namespace PracticeOOP
     {
         static void Main(string[] args)
         {
-            string mynamePro = "Bahtiyor";
-            int myyearPro = 34;
-            
+            string teacherNameMain = "Elbek Normurodov";
+            int teacherYearsMain = 21;
 
-            StringTransformer myname = new StringTransformer(mynamePro, myyearPro);
-           
-            StringTransformer myObj = new StringTransformer("Elbek Ustoz");
 
-            string resultMain = myObj.ReverseWords();
+            StringTransformer myObjOne = new StringTransformer (teacherNameMain, teacherYearsMain);
+
+            Console.WriteLine($"My teacher name {teacherNameMain}. Hi is {teacherYearsMain} years old");
+             
+            StringTransformer myObjTwo = new StringTransformer (teacherNameMain);
+
+            string resultMain = myObjTwo.ReverseWords();
 
             Console.WriteLine(resultMain);
 
             
-             
-            
-        
+
+
+
+
+
+
+
         }
     }
 }
