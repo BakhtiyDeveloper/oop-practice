@@ -20,8 +20,13 @@ namespace PracticeOOP
             string resultMain = myObjTwo.ReverseWords();
 
             Console.WriteLine(resultMain);
-
             
+            StringTransformer myObjThree = new StringTransformer(teacherNameMain);
+
+            string resultMainTwo = myObjThree.Greet();
+
+            Console.WriteLine(resultMainTwo);
+
 
 
 

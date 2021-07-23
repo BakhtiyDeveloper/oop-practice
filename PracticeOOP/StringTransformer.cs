@@ -35,7 +35,15 @@ namespace PracticeOOP
 
             return resalt;
         }
-       
+
+        ///Make a function that will return a greeting statement that uses an input; your program should return <summary>
+        /// 
+        /// name = Elbek Normurodov</summary>
+        /// <returns>"Hello, <name> how are you doing today?".</returns>
+        public string Greet()
+        {
+            return $"Hello, {name} how are you doing today?";
+        }
 
 
     }
