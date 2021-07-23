@@ -45,6 +45,17 @@ namespace PracticeOOP
             return $"Hello, {name} how are you doing today?";
         }
 
+        /// It's pretty straightforward. Your goal is to create a function that removes the first and 
+        /// last characters of a string. You're given one parameter, the original string. 
+        /// You don't have to worry with strings with 
+        /// less than two characters.<summary>
+        /// 
+        /// name = Elbek Normurodov</summary>
+        /// <returns>lbek Normurodo</returns>
+        public string Remove_char()
+        {
+            return name.Substring(1, (name.Length - 2));
+        }
 
     }
         

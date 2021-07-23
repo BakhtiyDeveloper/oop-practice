@@ -27,7 +27,11 @@ namespace PracticeOOP
 
             Console.WriteLine(resultMainTwo);
 
+            StringTransformer myObjFour = new StringTransformer(teacherNameMain);
 
+            var resultMainThree = myObjFour.Remove_char();
+
+            Console.WriteLine(resultMainThree);
 
 
 
